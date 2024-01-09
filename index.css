@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 1px black;
+    background-color: black;
+}
+
+/* #bg-img-autor {
+    position: fixed;
+    bottom: 0;
+    left:0
+} */
+
+main,
+.crypt-weather-container,
+#crypto-display,
+#weather-display,
+.icon-temp-container {
+    display: flex;
+}
+
+
+main {
+    padding: 20px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.crypt-weather-container {
+    justify-content: space-between;
+    background-color: red;
+}
+
+#crypto-display {
+    background-color: yellow;
+    gap: 10px;
+    align-items: center;
+}
+
+.crypto-img {
+    width: 60px;
+}
+
+#weather-display {
+    background-color: purple;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#weather-display p {
+    margin: 0;
+}
+
+.icon-temp-container{
+    /* background-color: teal; */
+    align-items: center;
+    font-size: 40px;
+}
+
+.weather-icon {
+    /* background-color: aqua; */
+    width: 100px;
+}
+
+.time-container{
+    background-color: blue;
+    text-align: center;
+}
+
+.author-container{
+    background-color: green;
+}
